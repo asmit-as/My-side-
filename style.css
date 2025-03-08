@@ -1,0 +1,109 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  
+}
+#headding{
+  
+  text-align: center;
+  color: deeppink;
+  text-shadow: 1px 2px black;
+ transform: rotateX(10deg);
+ margin-top: 100px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+}
+p{
+  text-align: center;
+  text-shadow: 1px 1px black;
+  
+  color: #FF0065;
+  margin-top: 20px;
+  
+}
+#btn1{
+  background-color: deeppink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 170px;
+  
+} 
+#btn1:hover{
+  background-color: whitesmoke;
+  
+}
+img{
+  height: 450px;
+}
+#youAns{
+  background-color: pink;
+  
+  
+} 
+audio{
+  display: flex;
+  align-items: center;
+  margin-top: 20px ;
+  margin-left: 90px;
+  color: pink;
+ 
+ }
+ #photo{
+   
+   height: 320px;
+   width: 250px;
+   background-color:#FF57A4;
+   box-shadow: 5px 5px 5px 5px black;
+   align-items: center;
+   justify-content: center;
+   margin-left: 100px;    
+   margin-top: 30px
+ }
+ #img2{
+   display: inline-block;
+   height: 200px;
+   align-items: center;
+   justify-content: center;
+   margin-left: 25px;
+   margin-top: 10px;
+   box-shadow: 1px 1px 1px 4px  whitesmoke;
+   transition: .5s ease-in;
+   filter:grayscale(100%);
+   
+ }
+ #img2:hover{
+   filter:grayscale(0%);
+ }
+ #p1{
+   color: whitesmoke;
+ }
+ #text1{
+   display: flex;
+   margin-top: 25px;
+ }
+ #song{
+   display: inline-block;
+   height: 230px;
+   width: 150px;
+   box-shadow: 2px 2px 2px 2px black;
+   justify-content: center;
+   align-items: center
+ }
+ #play{
+   height: 150px;
+ }
+ #controls{
+  display: inline-block;
+   width: 130px;
+   margin: 10px;
+ }
+ #song:hover{
+   height: 350px;
+   width: 270px;
+ }
+ #play:hover{
+   height: 240px;
+   margin-left:15px;
+ }
+ 
